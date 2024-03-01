@@ -2,11 +2,18 @@
 
   \item {main}
     \subitem {main.cpp}, \hyperpage{3}
+    \subitem {nurTest.cpp}, \hyperpage{4}
   \item {main.cpp}
     \subitem {main}, \hyperpage{3}
 
   \indexspace
 
+  \item {nurTest.cpp}
+    \subitem {main}, \hyperpage{4}
+
+  \indexspace
+
   \item {src/main.cpp}, \hyperpage{3, 4}
+  \item {src/nurTest.cpp}, \hyperpage{4, 5}
 
 \end{theindex}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.1)  1 MAR 2024 11:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.1)  1 MAR 2024 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,7 +885,7 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 3.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ) <./main_8cpp__incl.pdf>
-<main_8cpp__incl.pdf, id=71, 230.8625pt x 155.58125pt>
+<main_8cpp__incl.pdf, id=94, 230.8625pt x 155.58125pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 <use main_8cpp__incl.pdf>
 Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 10.
@@ -904,36 +904,45 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 25.
 )
-(./main_8cpp_source.tex [3]) [4] (./refman.ind
+(./main_8cpp_source.tex [3]) (./nurTest_8cpp.tex <./nurTest_8cpp__incl.pdf>
+<nurTest_8cpp__incl.pdf, id=124, 500.87125pt x 155.58125pt>
+File: nurTest_8cpp__incl.pdf Graphic file (type pdf)
+<use nurTest_8cpp__incl.pdf>
+Package pdftex.def Info: nurTest_8cpp__incl.pdf  used on input line 13.
+(pdftex.def)             Requested size: 350.0pt x 108.72095pt.
+)
+(./nurTest_8cpp_source.tex [4]) [5] [6
+
+] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [5
-
+ [7
 
 
 
 ]) (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 6B6F33AA57EC902AE8415C983AF80636;1144.
+(rerunfilecheck)             Checksum: 65FE1FF653E322ACE022782DFC27E270;1869.
  ) 
 Here is how much of TeX's memory you used:
- 17963 strings out of 476025
- 288003 string characters out of 5796498
- 1856388 words of memory out of 5000000
- 38061 multiletter control sequences out of 15000+600000
+ 18025 strings out of 476025
+ 289474 string characters out of 5796498
+ 1860388 words of memory out of 5000000
+ 38082 multiletter control sequences out of 15000+600000
  556848 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,355b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,358b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/co
-urier/ucrr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></u
-sr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on refman.pdf (9 pages, 78895 bytes).
+ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pf
+b></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-
+dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
+/helvetic/uhvr8a.pfb>
+Output written on refman.pdf (11 pages, 101146 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 70 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 253 PDF objects out of 1000 (max. 8388607)
+ 214 compressed objects within 3 object streams
+ 63 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,12 @@
+\begin{theindex}
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{3}
+  \item {main.cpp}
+    \subitem {main}, \hyperpage{3}
+
+  \indexspace
+
+  \item {src/main.cpp}, \hyperpage{3, 4}
+
+\end{theindex}

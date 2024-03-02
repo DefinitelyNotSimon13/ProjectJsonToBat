@@ -1,19 +1,23 @@
 \begin{theindex}
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{3}
-    \subitem {nurTest.cpp}, \hyperpage{4}
+    \subitem {main.cpp}, \hyperpage{10}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{3}
+    \subitem {main}, \hyperpage{10}
 
   \indexspace
 
-  \item {nurTest.cpp}
-    \subitem {main}, \hyperpage{4}
+  \item {setupEasyLogging}
+    \subitem {WIP}, \hyperpage{7}
+  \item {src/main.cpp}, \hyperpage{9, 10}
 
   \indexspace
 
-  \item {src/main.cpp}, \hyperpage{3, 4}
-  \item {src/nurTest.cpp}, \hyperpage{4, 5}
+  \item {Todo List}, \hyperpage{1}
+
+  \indexspace
+
+  \item {WIP}, \hyperpage{7}
+    \subitem {setupEasyLogging}, \hyperpage{7}
 
 \end{theindex}

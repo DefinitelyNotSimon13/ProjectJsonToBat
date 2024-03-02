@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.1)  1 MAR 2024 13:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.2)  2 MAR 2024 11:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,87 +862,128 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 ]
 Package hyperref Info: Option `pageanchor' set `true' on input line 210.
-
+ (./todo.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 212.
+(Font)              scaled to size 18.66588pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 212.
+(Font)              scaled to size 18.66588pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 212.
-(./files.tex
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 1.
+(Font)              scaled to size 22.39185pt on input line 1.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 9
+.
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 9.
+
+Overfull \hbox (27.0pt too wide) in paragraph at lines 9--10
+[]
+ []
+
 ) [1
 
 ] [2
 
 ]
 Chapter 2.
-(./main_8cpp.tex
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 3.
+(./namespaces.tex
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 12.9599pt on input line 1.
+) [3] [4
 
+]
+Chapter 3.
+(./files.tex) [5] [6
+
+]
+Chapter 4.
+(./namespaceWIP.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 7.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 10.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 7.19995pt on input line 15.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 15
+.
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) <./main_8cpp__incl.pdf>
-<main_8cpp__incl.pdf, id=94, 230.8625pt x 155.58125pt>
+) <./namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
+<namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=135, 273.02pt x
+ 99.37125pt>
+File: namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic file (
+type pdf)
+<use namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
+Package pdftex.def Info: namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph
+.pdf  used on input line 36.
+(pdftex.def)             Requested size: 272.0pt x 99.00557pt.
+) [7] [8
+
+]
+Chapter 5.
+(./main_8cpp.tex <./main_8cpp__incl.pdf>
+<main_8cpp__incl.pdf, id=159, 353.32pt x 155.58125pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 <use main_8cpp__incl.pdf>
-Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 10.
-(pdftex.def)             Requested size: 230.0pt x 155.0016pt.
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-6.
- (/usr/share/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 16.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 20.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 25.
+Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 11.
+(pdftex.def)             Requested size: 350.0pt x 154.12085pt.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 25.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 33.
+ [9]
+LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
+(Font)              scaled to size 8.99994pt on input line 35.
+
+Underfull \hbox (badness 10000) detected at line 35
+[][][]
+ []
+
+ <./main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
+<main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=185, 273.02pt x 99.
+37125pt>
+File: main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf Graphic file (type
+ pdf)
+<use main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
+Package pdftex.def Info: main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf
+  used on input line 57.
+(pdftex.def)             Requested size: 272.0pt x 99.00557pt.
 )
-(./main_8cpp_source.tex [3]) (./nurTest_8cpp.tex <./nurTest_8cpp__incl.pdf>
-<nurTest_8cpp__incl.pdf, id=124, 500.87125pt x 155.58125pt>
-File: nurTest_8cpp__incl.pdf Graphic file (type pdf)
-<use nurTest_8cpp__incl.pdf>
-Package pdftex.def Info: nurTest_8cpp__incl.pdf  used on input line 13.
-(pdftex.def)             Requested size: 350.0pt x 108.72095pt.
-)
-(./nurTest_8cpp_source.tex [4]) [5] [6
+(./main_8cpp_source.tex [10]) [11] [12
 
 ] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [7
+ [13
 
 
 
 ]) (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 65FE1FF653E322ACE022782DFC27E270;1869.
+(rerunfilecheck)             Checksum: 2A66A5F1A8CE9E5622892437454ED968;2327.
  ) 
 Here is how much of TeX's memory you used:
- 18025 strings out of 476025
- 289474 string characters out of 5796498
- 1860388 words of memory out of 5000000
- 38082 multiletter control sequences out of 15000+600000
- 556848 words of font info for 92 fonts, out of 8000000 for 9000
+ 18068 strings out of 476025
+ 290529 string characters out of 5796498
+ 1865388 words of memory out of 5000000
+ 38102 multiletter control sequences out of 15000+600000
+ 562595 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,358b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,355b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/urw/courier/ucrr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
-/helvetic/uhvr8a.pfb>
-Output written on refman.pdf (11 pages, 101146 bytes).
+/helvetic/uhvb8ac.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
+b></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (17 pages, 126928 bytes).
 PDF statistics:
- 253 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 334 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

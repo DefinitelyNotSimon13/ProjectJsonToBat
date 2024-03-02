@@ -1,13 +1,16 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
-\contentsline {chapter}{\numberline {1}File Index}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}File List}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}File Documentation}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}src/main.cpp File Reference}{3}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Function Documentation}{3}{subsection.2.1.1}%
-\contentsline {subsubsection}{\numberline {2.1.1.1}main()}{3}{subsubsection.2.1.1.1}%
-\contentsline {section}{\numberline {2.2}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}src/nur\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.cpp File Reference}{4}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Function Documentation}{4}{subsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.1.1}main()}{4}{subsubsection.2.3.1.1}%
-\contentsline {section}{\numberline {2.4}nur\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Test.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{5}{section.2.4}%
-\contentsline {chapter}{Index}{7}{section*.5}%
+\contentsline {chapter}{\numberline {1}Todo List}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Namespace Index}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Namespace List}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}%
+\contentsline {chapter}{\numberline {4}Namespace Documentation}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}WIP Namespace Reference}{7}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Function Documentation}{7}{subsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1.1}setupEasyLogging()}{7}{subsubsection.4.1.1.1}%
+\contentsline {chapter}{\numberline {5}File Documentation}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}src/main.cpp File Reference}{9}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Function Documentation}{10}{subsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1.1}main()}{10}{subsubsection.5.1.1.1}%
+\contentsline {section}{\numberline {5.2}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{10}{section.5.2}%
+\contentsline {chapter}{Index}{13}{section*.7}%

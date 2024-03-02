@@ -1,5 +1,6 @@
 \doxysection{src/main.cpp File Reference}
 \hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+{\ttfamily \#include $<$Logging\+Wrapper.\+hpp$>$}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
 {\ttfamily \#include $<$jsoncpp/json.\+h$>$}\newline
 Include dependency graph for main.\+cpp\+:
@@ -7,12 +8,19 @@ Include dependency graph for main.\+cpp\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=230pt]{main_8cpp__incl}
+\includegraphics[width=350pt]{main_8cpp__incl}
 \end{center}
 \end{figure}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \mbox{\hyperlink{namespaceWIP}{WIP}}
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
+void \mbox{\hyperlink{namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9}{WIP\+::setup\+Easy\+Logging}} ()
+\begin{DoxyCompactList}\small\item\em Setup the easylogging++ logger. \end{DoxyCompactList}\item 
 int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
 \end{DoxyCompactItemize}
 
@@ -24,7 +32,28 @@ int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int ar
 \doxysubsubsection{\texorpdfstring{main()}{main()}}
 {\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
 
+\begin{DoxyNote}{Note}
+Example of using the logging wrapper! For some cases, I thought would be most common, there are definitions/macros (OUTPUT, LOG\+\_\+\+INFO, LOG\+\_\+\+WARNING, LOG\+\_\+\+ERROR, LOG\+\_\+\+DEBUG) that can be used. For other cases, the utils\+::log function can be used directly. Possibilitys\+:
+\begin{DoxyItemize}
+\item utils\+::log(bool verbose = false) -\/ Logs INFO, verbose can be set to true
+\item utils\+::log(\+Log\+Level level) -\/ Logs the given level, verbose is false, however only INFO can be verbose anyway, as all other always print to the console
+\item utils\+::log(comst std\+::string \&prefix, bool verbose = false) -\/ Logs INFO, with a custom prefix, verbose can be set to true
+\item utils\+::log(const std\+::string \&prefix, Log\+Level level, bool verbose = false) -\/ Logs the given level, with a custom prefix, verbose can be set to true
+\end{DoxyItemize}
+\end{DoxyNote}
+All of the above return a std\+::ostream, so you can use it like e.\+g. a normal std\+::cout!
+
+Definition at line \mbox{\hyperlink{main_8cpp_source_l00011}{11}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
 
 
-Definition at line \mbox{\hyperlink{main_8cpp_source_l00004}{4}} of file \mbox{\hyperlink{main_8cpp_source}{main.\+cpp}}.
 
+References \mbox{\hyperlink{main_8cpp_source_l00061}{WIP\+::setup\+Easy\+Logging()}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=272pt]{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph}
+\end{center}
+\end{figure}

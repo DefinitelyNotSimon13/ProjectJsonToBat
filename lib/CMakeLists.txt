@@ -8,5 +8,5 @@ pkg_check_modules(JSONCPP jsoncpp)
 
 # Linking necessary libraries
 target_link_libraries(${PROJECT_NAME} PRIVATE
-  ${PROJECT_SOURCE_DIR}/lib/libjsoncpp.a
+  jsoncpp
   ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a)

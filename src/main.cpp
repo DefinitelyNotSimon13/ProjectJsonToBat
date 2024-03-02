@@ -1,5 +1,11 @@
-#include "config.hpp"
+#include "BatchCreator.hpp"
+#include "JsonData.hpp"
+#include "JsonHandler.hpp"
+#include "StartupHandler.hpp"
+#include "CliHandler.hpp"
+
 #include <LoggingWrapper.hpp>
+#include <filesystem>
 #include <jsoncpp/json.h>
 #ifdef IS_UNIX
 #include <getopt.h>
@@ -9,77 +15,61 @@
 
 INITIALIZE_EASYLOGGINGPP
 
-namespace WIP {
-void setupEasyLogging();
-}
-
+/**
+  * \brief Main function of the application
+  * \details
+  * The main function of the application. It parses the command line arguments
+  * and creates a JSONHandler object for each file. It then creates a batchCreator
+  * object and creates a batch file for each JSONHandler object.
+  **/
 int main(int argc, char* argv[])
 {
+    std::cout << cli::CLEAR_TERMINAL;
     // Setup easylogging++
-    WIP::setupEasyLogging();
-    // Print some information about the Project
-    // This is just for show and should be removed later
-    // This kind of information should later be accesible with the cli
-    OUTPUT << "----------\n"
-           << "Project information:\n"
-           << "----------\n"
-           << PROJECT_NAME << " v" << MAJOR_VERSION << "." << MINOR_VERSION << "."
-           << PATCH_VERSION << "\n"
-           << DESCRIPTION << "\n"
-           << "Authors: " << AUTHORS << "\n"
-           << "Documentation: " << HOMEPAGE_URL << "\n";
-    OUTPUT << "\n----------\n"
-           << "LoggingWrapper examples"
-           << "\n----------\n";
-    /** \note
-     * Example of using the logging wrapper!
-     * For some cases, I thought would be most common, there are
-     * definitions/macros (OUTPUT, LOG_INFO, LOG_WARNING, LOG_ERROR, LOG_DEBUG)
-     * that can be used. For other cases, the utils::log function can be used
-     * directly. Possibilitys:
-     * - utils::log(bool verbose = false) - Logs INFO, verbose can be set to true
-     *
-     * - utils::log(LogLevel level) - Logs the given level, verbose is false,
-     * however only INFO can be verbose anyway, as all other always print to the
-     * console
-     *
-     * - utils::log(comst std::string &prefix, bool verbose = false) - Logs INFO,
-     *     with a custom prefix, verbose can be set to true
-     *
-     * - utils::log(const std::string &prefix, LogLevel level, bool verbose =
-     * false) - Logs the given level, with a custom prefix, verbose can be set to
-     * true
-     *
-     * All of the above return a std::ostream, so you can use it like e.g. a
-     * normal std::cout!
-     */
-    OUTPUT << "Hello I am a normal output! I will also be logged!\n";
-    LOG_INFO
-            << "I am a log info, I won't get printed to the console automatically!\n";
-    // The true defines that it is verbose - the default level is INFO
-    utils::log(true) << "I am a log info, I will get printed to the console!\n";
-    LOG_WARNING << "I am a log warning, I will get printed to the console!\n";
-    LOG_ERROR << "I am a log error, I will get printed to the console!\n";
-    LOG_DEBUG << "I am a log debug, I will get printed to the console!\n";
-    // False is the default value and can be omitted
-    utils::log("Custom: ", false)
-            << "I am a log with a prefix, I won't get printed to the console!\n";
-    utils::log("Custom: ", true)
-            << "I am a log with a prefix, I will get printed to the console!\n";
-    LOG_INFO << "Exiting...";
+    utils::StartupHandler::initEasylogging();
+    LOG_INFO << "Starting application...\n";
+    // Parse command line arguments
+
+    // Check if a filename or other options are given
+    if (argc < 2) {
+        LOG_ERROR << "Usage: " << argv[0] << " <filename>\n";
+        OUTPUT << "Exiting application...\n";
+        return 1;
+    }
+
+    // Parse options and go through all filenames given
+    for (const auto &filename : utils::StartupHandler::parseOptions(argc, argv)) {
+        if (filename.empty()) {
+            LOG_ERROR << "Filename cannot be empty!\n";
+            OUTPUT << "Continuing with next file...\n\n";
+            continue;
+        }
+
+        if (!std::filesystem::exists(filename)) {
+            LOG_ERROR << "File: " << filename << " does not exist!\n";
+            OUTPUT << "Continuing with next file...\n\n";
+            continue;
+        }
+
+        OUTPUT << cli::UNDERLINE << "Processing file: " << cli::ITALIC << filename
+               << cli::RESET << "\n";
+        // Create JSONHandler object
+        proJson::JsonHandler jsonHandler(filename);
+        // Retrieve Data from JSONHandler object
+        std::shared_ptr<proJson::JsonData> jsonData = jsonHandler.getJSONData();
+        const std::string outputfile = jsonData->getOutputFile();
+        OUTPUT << "- Creating Outputfile: " << cli::ITALIC << outputfile
+               << cli::RESET << "\n";
+        // Create batch file
+        batch::BatchCreator batchCreator(jsonData);
+        std::shared_ptr<std::ofstream> batchFile = batchCreator.createBatchFile();
+        // Get path of batch file for output
+        std::filesystem::path path = std::filesystem::current_path();
+        OUTPUT << "- Batch file created at: " << cli::ITALIC << path.string() << "/"
+               << outputfile << cli::RESET << "\n\n";
+        batchFile->close();
+    }
+
+    OUTPUT << cli::GREEN_FG << "Done! Exiting application...\n" << cli::RESET;
     return 0;
 }
-
-namespace WIP {
-/**
- * \brief Setup the easylogging++ logger
- * \todo
- * - Should be moved to a separate file
- * - Proper configuration of easylogging++
- */
-void setupEasyLogging()
-{
-    el::Configurations conf("conf/easylogging.conf");
-    el::Loggers::reconfigureAllLoggers(conf);
-}
-} // namespace WIP

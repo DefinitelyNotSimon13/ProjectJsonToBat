@@ -56,6 +56,11 @@ endif(DOXYGEN_FOUND)
 # Add sources for the main executable
 set(SOURCES
   src/main.cpp
+  src/sources/StartupHandler.cpp
+  src/sources/CliHandler.cpp
+  src/sources/JsonHandler.cpp
+  src/sources/JsonData.cpp
+  src/sources/BatchCreator.cpp
 )
 # Add main executable
 add_executable(${PROJECT_NAME} ${SOURCES})

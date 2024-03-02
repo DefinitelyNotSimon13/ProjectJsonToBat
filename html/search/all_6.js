@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['patch_5fversion_0',['PATCH_VERSION',['../d8/dfd/config_8hpp.html#aed5f6b4b087292b1f6579952fc7c14eb',1,'config.hpp']]],
-  ['project_5fname_1',['PROJECT_NAME',['../d8/dfd/config_8hpp.html#ae73053051efbb45c3a39751f5ce9fb36',1,'config.hpp']]]
+  ['startuphandler_0',['StartupHandler',['../classutils_1_1StartupHandler.html',1,'utils::StartupHandler'],['../classutils_1_1StartupHandler.html#afb1be30f328a938d47f8841c27b7d9fe',1,'utils::StartupHandler::StartupHandler()=default'],['../classutils_1_1StartupHandler.html#a839d1f058ee5ec8d618aaaf91fe50a26',1,'utils::StartupHandler::StartupHandler(const StartupHandler &amp;)=delete']]],
+  ['startuphandler_2ecpp_1',['StartupHandler.cpp',['../StartupHandler_8cpp.html',1,'']]],
+  ['startuphandler_2ehpp_2',['StartupHandler.hpp',['../StartupHandler_8hpp.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['description_0',['DESCRIPTION',['../d8/dfd/config_8hpp.html#a5f024226e6b8e20da1226b39ce384857',1,'config.hpp']]]
+  ['setupeasylogging_0',['setupEasyLogging',['../namespaceWIP.html#a11d0d8373a8a6c4eebcc8b0d2dcccac9',1,'WIP']]]
 ];

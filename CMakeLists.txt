@@ -1,9 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
 
-# Currently not supported on Windows
-if (WIN32)
-  message(FATAL_ERROR "This project is not supported on Windows yet.")
-endif()
 
 set(PROJECT_NAME jsonToBatch)
 
@@ -66,6 +62,16 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Add subdirectories
 add_subdirectory(lib)
+# Currently not supported on Windows 100%
+if (WIN32)
+  message(WARNING "This project might not run on Windows.")
+  add_library(xgetopt STATIC lib/xgetopt.c)
+  target_link_libraries(${PROJECT_NAME} xgetopt)
+  target_compile_definitions(${PROJECT_NAME} PRIVATE IS_WINDOWS)
+elseif (UNIX)
+  message(STATUS "This project is running on Unix")
+  target_compile_definitions(${PROJECT_NAME} PRIVATE IS_UNIX)
+endif()
 
 # Set include directories
 target_include_directories(${PROJECT_NAME} PRIVATE

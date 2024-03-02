@@ -1,6 +1,11 @@
 #include "config.hpp"
 #include <LoggingWrapper.hpp>
 #include <jsoncpp/json.h>
+#ifdef IS_UNIX
+#include <getopt.h>
+#elif IS_WINDOWS
+#include <xgetopt.h>
+#endif
 
 INITIALIZE_EASYLOGGINGPP
 

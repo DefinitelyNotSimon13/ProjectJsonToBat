@@ -4,7 +4,7 @@ cmake_minimum_required(VERSION 3.22)
 set(PROJECT_NAME jsonToBatch)
 
 # Set basic CMAKE flags
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -66,7 +66,10 @@ add_subdirectory(lib)
 if (WIN32)
   message(WARNING "This project might not run on Windows.")
   add_library(xgetopt STATIC lib/xgetopt.c)
-  target_link_libraries(${PROJECT_NAME} xgetopt)
+  target_link_libraries(${PROJECT_NAME} PRIVATE
+  ${PROJECT_SOURCE_DIR}/lib/libjsoncpp.a
+  ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a
+  xgetopt)
   target_compile_definitions(${PROJECT_NAME} PRIVATE IS_WINDOWS)
 elseif (UNIX)
   message(STATUS "This project is running on Unix")

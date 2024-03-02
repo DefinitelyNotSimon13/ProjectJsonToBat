@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['os_0',['OS',['../main_8cpp.html#a3324dbb5e25daac23e988901bb085447',1,'main.cpp']]]
+  ['authors_0',['AUTHORS',['../d8/dfd/config_8hpp.html#a7e5da39fd3a4d5e827323372d91723aa',1,'config.hpp']]]
 ];

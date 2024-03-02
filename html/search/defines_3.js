@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['initialize_5feasyloggingpp_0',['INITIALIZE_EASYLOGGINGPP',['../easylogging_09_09_8h.html#a0680b16a06b8c74f1ce4165cb3c14c12',1,'easylogging++.h']]],
-  ['initialize_5fnull_5feasyloggingpp_1',['INITIALIZE_NULL_EASYLOGGINGPP',['../easylogging_09_09_8h.html#a13d483a96a4bb714260b3cf6a9453459',1,'easylogging++.h']]]
+  ['major_5fversion_0',['MAJOR_VERSION',['../d8/dfd/config_8hpp.html#aa9e8f3bb466bb421d13913df7aeaa20c',1,'config.hpp']]],
+  ['minor_5fversion_1',['MINOR_VERSION',['../d8/dfd/config_8hpp.html#a320988aa2655ee094f3a34a52da10831',1,'config.hpp']]]
 ];

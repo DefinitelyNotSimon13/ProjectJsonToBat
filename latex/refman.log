@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.2)  2 MAR 2024 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.2)  2 MAR 2024 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -862,7 +862,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 
 ]
 Package hyperref Info: Option `pageanchor' set `true' on input line 210.
- (./dd/da0/todo.tex
+ (./todo.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 18.66588pt on input line 1.
@@ -899,7 +899,7 @@ Chapter 3.
 
 ]
 Chapter 4.
-(./d8/d96/namespaceWIP.tex
+(./namespaceWIP.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
@@ -912,38 +912,28 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 15
 .
  (/usr/share/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) <./d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
-<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=184, 273
-.02pt x 99.37125pt>
-File: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic
- file (type pdf)
-<use d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
-Package pdftex.def Info: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_
-icgraph.pdf  used on input line 36.
+) <./namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
+<namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=135, 273.02pt x
+ 99.37125pt>
+File: namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic file (
+type pdf)
+<use namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
+Package pdftex.def Info: namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph
+.pdf  used on input line 36.
 (pdftex.def)             Requested size: 272.0pt x 99.00557pt.
-) [7]
-[8
+) [7] [8
 
 ]
 Chapter 5.
-(./d8/dfd/config_8hpp.tex <./d4/d28/config_8hpp__dep__incl.pdf>
-<d4/d28/config_8hpp__dep__incl.pdf, id=207, 190.7125pt x 155.58125pt>
-File: d4/d28/config_8hpp__dep__incl.pdf Graphic file (type pdf)
-<use d4/d28/config_8hpp__dep__incl.pdf>
-Package pdftex.def Info: d4/d28/config_8hpp__dep__incl.pdf  used on input line 
-8.
-(pdftex.def)             Requested size: 190.0pt x 155.00635pt.
- [9])
-(./d8/dfd/config_8hpp_source.tex) (./df/d0a/main_8cpp.tex <./da/dce/main_8cpp__
-incl.pdf>
-<da/dce/main_8cpp__incl.pdf, id=263, 359.3425pt x 155.58125pt>
-File: da/dce/main_8cpp__incl.pdf Graphic file (type pdf)
-<use da/dce/main_8cpp__incl.pdf>
-Package pdftex.def Info: da/dce/main_8cpp__incl.pdf  used on input line 11.
-(pdftex.def)             Requested size: 350.0pt x 151.54747pt.
- [10]
+(./main_8cpp.tex <./main_8cpp__incl.pdf>
+<main_8cpp__incl.pdf, id=159, 353.32pt x 155.58125pt>
+File: main_8cpp__incl.pdf Graphic file (type pdf)
+<use main_8cpp__incl.pdf>
+Package pdftex.def Info: main_8cpp__incl.pdf  used on input line 11.
+(pdftex.def)             Requested size: 350.0pt x 154.12085pt.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 33.
+ [9]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 (Font)              scaled to size 8.99994pt on input line 35.
 
@@ -951,41 +941,37 @@ Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
 
-
-Overfull \hbox (21.81071pt too wide) in paragraph at lines 50--51
-[]\T1/phv/m/n/10 References [], [], [], [], [], [],
- []
-
- <./df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
-<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=304, 273.02p
-t x 99.37125pt>
-File: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf Graphic fil
-e (type pdf)
-<use df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
-Package pdftex.def Info: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgr
-aph.pdf  used on input line 57.
+ <./main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
+<main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=185, 273.02pt x 99.
+37125pt>
+File: main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf Graphic file (type
+ pdf)
+<use main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
+Package pdftex.def Info: main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf
+  used on input line 57.
 (pdftex.def)             Requested size: 272.0pt x 99.00557pt.
 )
-(./df/d0a/main_8cpp_source.tex [11]) [12] (./refman.ind
+(./main_8cpp_source.tex [10]) [11] [12
+
+] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
  [13
 
 
 
-
 ]) (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: FCCF7E4E7E28ACBE6DE2A86F3D15D001;4022.
+(rerunfilecheck)             Checksum: 2A66A5F1A8CE9E5622892437454ED968;2327.
  ) 
 Here is how much of TeX's memory you used:
- 18156 strings out of 476025
- 293204 string characters out of 5796498
- 1870388 words of memory out of 5000000
- 38133 multiletter control sequences out of 15000+600000
+ 18068 strings out of 476025
+ 290529 string characters out of 5796498
+ 1865388 words of memory out of 5000000
+ 38102 multiletter control sequences out of 15000+600000
  562595 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,527b,485s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,355b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -994,10 +980,10 @@ b></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8ac.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (17 pages, 148843 bytes).
+Output written on refman.pdf (17 pages, 126926 bytes).
 PDF statistics:
- 500 PDF objects out of 1000 (max. 8388607)
- 436 compressed objects within 5 object streams
- 123 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 334 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 80 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

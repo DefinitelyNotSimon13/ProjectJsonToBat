@@ -1,11 +1,10 @@
 var indexSectionsWithContent =
 {
-  0: "acdlmpstw",
+  0: "lmstw",
   1: "w",
-  2: "cm",
+  2: "m",
   3: "ms",
-  4: "admp",
-  5: "lt"
+  4: "lt"
 };
 
 var indexSectionNames =
@@ -14,8 +13,7 @@ var indexSectionNames =
   1: "namespaces",
   2: "files",
   3: "functions",
-  4: "defines",
-  5: "pages"
+  4: "pages"
 };
 
 var indexSectionLabels =
@@ -24,7 +22,6 @@ var indexSectionLabels =
   1: "Namespaces",
   2: "Files",
   3: "Functions",
-  4: "Macros",
-  5: "Pages"
+  4: "Pages"
 };
 

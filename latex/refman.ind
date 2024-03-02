@@ -1,47 +1,15 @@
 \begin{theindex}
 
-  \item {AUTHORS}
-    \subitem {config.hpp}, \hyperpage{9}
-
-  \indexspace
-
-  \item {config.hpp}
-    \subitem {AUTHORS}, \hyperpage{9}
-    \subitem {DESCRIPTION}, \hyperpage{9}
-    \subitem {MAJOR\_VERSION}, \hyperpage{10}
-    \subitem {MINOR\_VERSION}, \hyperpage{10}
-    \subitem {PATCH\_VERSION}, \hyperpage{10}
-    \subitem {PROJECT\_NAME}, \hyperpage{10}
-
-  \indexspace
-
-  \item {DESCRIPTION}
-    \subitem {config.hpp}, \hyperpage{9}
-
-  \indexspace
-
   \item {main}
-    \subitem {main.cpp}, \hyperpage{11}
+    \subitem {main.cpp}, \hyperpage{10}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{11}
-  \item {MAJOR\_VERSION}
-    \subitem {config.hpp}, \hyperpage{10}
-  \item {MINOR\_VERSION}
-    \subitem {config.hpp}, \hyperpage{10}
-
-  \indexspace
-
-  \item {PATCH\_VERSION}
-    \subitem {config.hpp}, \hyperpage{10}
-  \item {PROJECT\_NAME}
-    \subitem {config.hpp}, \hyperpage{10}
+    \subitem {main}, \hyperpage{10}
 
   \indexspace
 
   \item {setupEasyLogging}
     \subitem {WIP}, \hyperpage{7}
-  \item {src/include/config.hpp}, \hyperpage{9, 10}
-  \item {src/main.cpp}, \hyperpage{11, 12}
+  \item {src/main.cpp}, \hyperpage{9, 10}
 
   \indexspace
 

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['patch_5fversion_0',['PATCH_VERSION',['../d8/dfd/config_8hpp.html#aed5f6b4b087292b1f6579952fc7c14eb',1,'config.hpp']]],
-  ['project_5fname_1',['PROJECT_NAME',['../d8/dfd/config_8hpp.html#ae73053051efbb45c3a39751f5ce9fb36',1,'config.hpp']]]
+  ['initialize_5feasyloggingpp_0',['INITIALIZE_EASYLOGGINGPP',['../easylogging_09_09_8h.html#a0680b16a06b8c74f1ce4165cb3c14c12',1,'easylogging++.h']]],
+  ['initialize_5fnull_5feasyloggingpp_1',['INITIALIZE_NULL_EASYLOGGINGPP',['../easylogging_09_09_8h.html#a13d483a96a4bb714260b3cf6a9453459',1,'easylogging++.h']]]
 ];

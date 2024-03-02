@@ -7,4 +7,6 @@ find_package(PkgConfig)
 pkg_check_modules(JSONCPP jsoncpp)
 
 # Linking necessary libraries
-
+target_link_libraries(${PROJECT_NAME} PRIVATE
+  jsoncpp
+  ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a)

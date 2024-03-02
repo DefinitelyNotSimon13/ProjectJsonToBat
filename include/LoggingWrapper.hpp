@@ -91,7 +91,7 @@ inline LoggingWrapper log(LogLevel level, const std::string &prefix,
 }
 } // namespace utils
 
-namespace cli {
+namespace libCli {
 const static std::string CLEAR_TERMINAL = "\x1b[2J";
 const static std::string RESET = "\x1b[0m";
 const static std::string BOLD = "\x1b[1m";
@@ -116,6 +116,6 @@ const static std::string CYAN_BG = "\x1b[46m";
 const static std::string WHITE_BG = "\x1b[47m";
 const static std::string ERROR = "\x1b[31m\x1b[1m";
 
-} // namespace cli
+} // namespace libCli
 
 #endif // LOGANDOUT_HPP

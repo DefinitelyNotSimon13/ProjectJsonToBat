@@ -1,0 +1,1 @@
+CALL build\Debug\jsonToBatch.exe %*

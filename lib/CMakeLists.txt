@@ -16,11 +16,15 @@ if(WIN32)
   target_link_libraries(${PROJECT_NAME} PRIVATE
   ${PROJECT_SOURCE_DIR}/lib/libjsoncpp.a
   ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a
-  xgetopt)
+  xgetopt
+  LoggingWrapper
+  )
+  target_compile_definitions(LoggingWrapper PRIVATE IS_WINDOWS)
 else ()
 target_link_libraries(${PROJECT_NAME} PRIVATE
   jsoncpp
   LoggingWrapper
   ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a)
+  target_compile_definitions(LoggingWrapper PRIVATE IS_UNIX)
 endif ()
 

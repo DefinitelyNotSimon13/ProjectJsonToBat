@@ -21,7 +21,7 @@
 namespace utils {
 LoggingWrapper::~LoggingWrapper() {
     switch (this->level) {
-    case LogLevel::OUT:
+    case LogLevel::OUTP:
         std::cout << this->buffer.str();
         LOG(INFO) << this->prefix << this->buffer.str();
         break;

@@ -7,6 +7,17 @@ find_package(PkgConfig)
 pkg_check_modules(JSONCPP jsoncpp)
 
 # Linking necessary libraries
+
+
+
+if(WIN32)
+  target_link_libraries(${PROJECT_NAME} PRIVATE
+  ${PROJECT_SOURCE_DIR}/lib/libjsoncpp.a
+  ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a
+  xgetopt)
+else ()
 target_link_libraries(${PROJECT_NAME} PRIVATE
   jsoncpp
   ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a)
+endif ()
+

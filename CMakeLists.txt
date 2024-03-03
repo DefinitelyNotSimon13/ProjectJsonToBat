@@ -65,25 +65,25 @@ set(SOURCES
 # Add main executable
 add_executable(${PROJECT_NAME} ${SOURCES})
 
+# Set include directories
+target_include_directories(${PROJECT_NAME} PRIVATE
+  ${PROJECT_SOURCE_DIR}/include
+  ${PROJECT_SOURCE_DIR}/src/include
+)
+
 # Add subdirectories
 add_subdirectory(lib)
 # Currently not supported on Windows 100%
 if (WIN32)
   message(WARNING "This project might not run on Windows.")
+  include_directories(${PROJECT_SOURCE_DIR}/include)
   add_library(xgetopt STATIC lib/xgetopt.c)
-  target_link_libraries(${PROJECT_NAME} PRIVATE
-  ${PROJECT_SOURCE_DIR}/lib/libjsoncpp.a
-  ${PROJECT_SOURCE_DIR}/lib/libLoggingWrapper.a
-  xgetopt)
+  target_include_directories(xgetopt PRIVATE ${PROJECT_SOURCE_DIR}/include)
   target_compile_definitions(${PROJECT_NAME} PRIVATE IS_WINDOWS)
 elseif (UNIX)
   message(STATUS "This project is running on Unix")
   target_compile_definitions(${PROJECT_NAME} PRIVATE IS_UNIX)
 endif()
 
-# Set include directories
-target_include_directories(${PROJECT_NAME} PRIVATE
-  ${PROJECT_SOURCE_DIR}/include
-  ${PROJECT_SOURCE_DIR}/src/include
-)
+
 

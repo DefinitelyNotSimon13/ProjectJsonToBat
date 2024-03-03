@@ -35,7 +35,7 @@ namespace utils {
 #define LOG_ERROR utils::log(utils::LogLevel::ERROR)
 #define LOG_WARNING utils::log(utils::LogLevel::WARNING)
 #define LOG_DEBUG utils::log(utils::LogLevel::DEBUG)
-#define OUTPUT utils::log(utils::LogLevel::OUT, "Output: ")
+#define OUTPUT utils::log(utils::LogLevel::OUTP,"Output: ")
 
 enum class LogLevel {
   INFO,
@@ -43,7 +43,8 @@ enum class LogLevel {
   ERROR,
   FATAL,
   DEBUG,
-  OUT,
+  OUTP,
+  TEST
 };
 
 /**

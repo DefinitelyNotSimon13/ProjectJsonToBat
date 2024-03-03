@@ -4,7 +4,7 @@
 #include "LoggingWrapper.hpp"
 
 #include <fstream>
-#include <json/json.h>
+#include <jsoncpp/json.h>
 #include <stdexcept>
 
 namespace proJson {

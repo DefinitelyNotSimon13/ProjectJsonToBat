@@ -15,8 +15,7 @@ std::vector<std::string> StartupHandler::parseOptions(int argc, char* argv[])
 {
     LOG_INFO << "Parsing options...\n";
     int* verbose = nullptr;
-    static const struct option long_options[] = {
-        /* These options set a flag. */
+    static const struct option long_options[] = { //NOSONAR
         {"verbose", no_argument, verbose, 1},
         {"brief", no_argument, verbose, 0},
         {"help", no_argument, nullptr, 'h'},
@@ -76,7 +75,6 @@ std::vector<std::string> StartupHandler::parseOptions(int argc, char* argv[])
         files.emplace_back(argv[optind++]);
     }
 
-    free(verbose);
     return files;
 }
 } // namespace utils

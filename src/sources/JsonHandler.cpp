@@ -3,9 +3,7 @@
 #include "JsonData.hpp"
 #include "LoggingWrapper.hpp"
 
-#include <fstream>
 #include <json/json.h>
-#include <stdexcept>
 
 namespace proJson {
 JsonHandler::JsonHandler(const std::string &filename)
@@ -21,7 +19,12 @@ const
     std::ifstream file(filename);
     Json::Value newRoot;
     Json::Reader reader;
-    reader.parse(file, newRoot);
+
+    if (!reader.parse(file, newRoot)) {
+        LOG_ERROR << "Failed to parse file: " << filename << "\n";
+        exit(1);
+    }
+
     LOG_INFO << "File parsed\n";
     return std::make_shared<Json::Value>(newRoot);
 }

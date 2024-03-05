@@ -1,34 +1,32 @@
 \begin{theindex}
 
   \item {AUTHORS}
-    \subitem {config.hpp}, \hyperpage{18}
+    \subitem {config.hpp}, \hyperpage{15}
 
   \indexspace
 
-  \item {Bug List}, \hyperpage{9}
+  \item {Bug List}, \hyperpage{7}
 
   \indexspace
 
-  \item {CMake}, \hyperpage{5}
-  \item {CMake.md}, \hyperpage{17}
   \item {config.hpp}
-    \subitem {AUTHORS}, \hyperpage{18}
-    \subitem {DESCRIPTION}, \hyperpage{18}
-    \subitem {HOMEPAGE\_URL}, \hyperpage{18}
-    \subitem {MAJOR\_VERSION}, \hyperpage{18}
-    \subitem {MINOR\_VERSION}, \hyperpage{18}
-    \subitem {PATCH\_VERSION}, \hyperpage{18}
-    \subitem {PROJECT\_NAME}, \hyperpage{18}
+    \subitem {AUTHORS}, \hyperpage{15}
+    \subitem {DESCRIPTION}, \hyperpage{15}
+    \subitem {HOMEPAGE\_URL}, \hyperpage{16}
+    \subitem {MAJOR\_VERSION}, \hyperpage{16}
+    \subitem {MINOR\_VERSION}, \hyperpage{16}
+    \subitem {PATCH\_VERSION}, \hyperpage{16}
+    \subitem {PROJECT\_NAME}, \hyperpage{16}
 
   \indexspace
 
   \item {DESCRIPTION}
-    \subitem {config.hpp}, \hyperpage{18}
+    \subitem {config.hpp}, \hyperpage{15}
 
   \indexspace
 
   \item {HOMEPAGE\_URL}
-    \subitem {config.hpp}, \hyperpage{18}
+    \subitem {config.hpp}, \hyperpage{16}
 
   \indexspace
 
@@ -37,39 +35,39 @@
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{19}
+    \subitem {main.cpp}, \hyperpage{17}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{19}
+    \subitem {main}, \hyperpage{17}
   \item {MAJOR\_VERSION}
-    \subitem {config.hpp}, \hyperpage{18}
+    \subitem {config.hpp}, \hyperpage{16}
   \item {MINOR\_VERSION}
-    \subitem {config.hpp}, \hyperpage{18}
+    \subitem {config.hpp}, \hyperpage{16}
 
   \indexspace
 
   \item {PATCH\_VERSION}
-    \subitem {config.hpp}, \hyperpage{18}
+    \subitem {config.hpp}, \hyperpage{16}
   \item {PROJECT\_NAME}
-    \subitem {config.hpp}, \hyperpage{18}
+    \subitem {config.hpp}, \hyperpage{16}
 
   \indexspace
 
-  \item {README.md}, \hyperpage{17}
+  \item {README.md}, \hyperpage{15}
 
   \indexspace
 
   \item {setupEasyLogging}
-    \subitem {WIP}, \hyperpage{15}
-  \item {src/include/config.hpp}, \hyperpage{17}, \hyperpage{19}
-  \item {src/main.cpp}, \hyperpage{19, 20}
+    \subitem {WIP}, \hyperpage{13}
+  \item {src/include/config.hpp}, \hyperpage{15, 16}
+  \item {src/main.cpp}, \hyperpage{17, 18}
 
   \indexspace
 
-  \item {Todo List}, \hyperpage{7}
+  \item {Todo List}, \hyperpage{5}
 
   \indexspace
 
-  \item {WIP}, \hyperpage{15}
-    \subitem {setupEasyLogging}, \hyperpage{15}
+  \item {WIP}, \hyperpage{13}
+    \subitem {setupEasyLogging}, \hyperpage{13}
 
 \end{theindex}

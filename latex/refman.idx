@@ -1,27 +1,27 @@
 \indexentry{jsonToBatch@{jsonToBatch}|hyperpage}{1}
-\indexentry{Todo List@{Todo List}|hyperpage}{3}
-\indexentry{Bug List@{Bug List}|hyperpage}{5}
-\indexentry{WIP@{WIP}|hyperpage}{11}
-\indexentry{WIP@{WIP}!setupEasyLogging@{setupEasyLogging}|hyperpage}{11}
-\indexentry{setupEasyLogging@{setupEasyLogging}!WIP@{WIP}|hyperpage}{11}
-\indexentry{README.md@{README.md}|hyperpage}{13}
-\indexentry{src/include/config.hpp@{src/include/config.hpp}|hyperpage}{13}
-\indexentry{config.hpp@{config.hpp}!AUTHORS@{AUTHORS}|hyperpage}{13}
-\indexentry{AUTHORS@{AUTHORS}!config.hpp@{config.hpp}|hyperpage}{13}
-\indexentry{config.hpp@{config.hpp}!DESCRIPTION@{DESCRIPTION}|hyperpage}{13}
-\indexentry{DESCRIPTION@{DESCRIPTION}!config.hpp@{config.hpp}|hyperpage}{13}
-\indexentry{config.hpp@{config.hpp}!HOMEPAGE\_URL@{HOMEPAGE\_URL}|hyperpage}{14}
-\indexentry{HOMEPAGE\_URL@{HOMEPAGE\_URL}!config.hpp@{config.hpp}|hyperpage}{14}
-\indexentry{config.hpp@{config.hpp}!MAJOR\_VERSION@{MAJOR\_VERSION}|hyperpage}{14}
-\indexentry{MAJOR\_VERSION@{MAJOR\_VERSION}!config.hpp@{config.hpp}|hyperpage}{14}
-\indexentry{config.hpp@{config.hpp}!MINOR\_VERSION@{MINOR\_VERSION}|hyperpage}{14}
-\indexentry{MINOR\_VERSION@{MINOR\_VERSION}!config.hpp@{config.hpp}|hyperpage}{14}
-\indexentry{config.hpp@{config.hpp}!PATCH\_VERSION@{PATCH\_VERSION}|hyperpage}{14}
-\indexentry{PATCH\_VERSION@{PATCH\_VERSION}!config.hpp@{config.hpp}|hyperpage}{14}
-\indexentry{config.hpp@{config.hpp}!PROJECT\_NAME@{PROJECT\_NAME}|hyperpage}{14}
-\indexentry{PROJECT\_NAME@{PROJECT\_NAME}!config.hpp@{config.hpp}|hyperpage}{14}
-\indexentry{src/include/config.hpp@{src/include/config.hpp}|hyperpage}{14}
-\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{15}
-\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{15}
-\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{15}
-\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{16}
+\indexentry{Todo List@{Todo List}|hyperpage}{5}
+\indexentry{Bug List@{Bug List}|hyperpage}{7}
+\indexentry{WIP@{WIP}|hyperpage}{13}
+\indexentry{WIP@{WIP}!setupEasyLogging@{setupEasyLogging}|hyperpage}{13}
+\indexentry{setupEasyLogging@{setupEasyLogging}!WIP@{WIP}|hyperpage}{13}
+\indexentry{README.md@{README.md}|hyperpage}{15}
+\indexentry{src/include/config.hpp@{src/include/config.hpp}|hyperpage}{15}
+\indexentry{config.hpp@{config.hpp}!AUTHORS@{AUTHORS}|hyperpage}{15}
+\indexentry{AUTHORS@{AUTHORS}!config.hpp@{config.hpp}|hyperpage}{15}
+\indexentry{config.hpp@{config.hpp}!DESCRIPTION@{DESCRIPTION}|hyperpage}{15}
+\indexentry{DESCRIPTION@{DESCRIPTION}!config.hpp@{config.hpp}|hyperpage}{15}
+\indexentry{config.hpp@{config.hpp}!HOMEPAGE\_URL@{HOMEPAGE\_URL}|hyperpage}{16}
+\indexentry{HOMEPAGE\_URL@{HOMEPAGE\_URL}!config.hpp@{config.hpp}|hyperpage}{16}
+\indexentry{config.hpp@{config.hpp}!MAJOR\_VERSION@{MAJOR\_VERSION}|hyperpage}{16}
+\indexentry{MAJOR\_VERSION@{MAJOR\_VERSION}!config.hpp@{config.hpp}|hyperpage}{16}
+\indexentry{config.hpp@{config.hpp}!MINOR\_VERSION@{MINOR\_VERSION}|hyperpage}{16}
+\indexentry{MINOR\_VERSION@{MINOR\_VERSION}!config.hpp@{config.hpp}|hyperpage}{16}
+\indexentry{config.hpp@{config.hpp}!PATCH\_VERSION@{PATCH\_VERSION}|hyperpage}{16}
+\indexentry{PATCH\_VERSION@{PATCH\_VERSION}!config.hpp@{config.hpp}|hyperpage}{16}
+\indexentry{config.hpp@{config.hpp}!PROJECT\_NAME@{PROJECT\_NAME}|hyperpage}{16}
+\indexentry{PROJECT\_NAME@{PROJECT\_NAME}!config.hpp@{config.hpp}|hyperpage}{16}
+\indexentry{src/include/config.hpp@{src/include/config.hpp}|hyperpage}{16}
+\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{17}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{17}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{17}
+\indexentry{src/main.cpp@{src/main.cpp}|hyperpage}{18}

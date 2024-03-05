@@ -1,0 +1,68 @@
+.TH "md_CMake" 3 "Tue Mar 5 2024 12:54:50" "Version 0.1.3" "jsonToBatch" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+md_CMake \- CMake 
+.PP
+
+.SH "Was ist CMake?"
+.PP
+Grob gesagt ist CMake das System, das unser Projekt konfiguriert und 'baut'\&. 'Baut' ist hierbei in Anführungszeichen, da es nicht den klassichen Compiler wie bspw\&. gcc/g++ ersetzt\&. CMake stellt diesem in gewissermaßen die benötigten Anweisungen bereit, damit 'komplexere' Projekte mit mehreren zu kompilierenden Dateien problemlos und konsistent gebaut werden können\&.
+.SH "CMake Grundlagen:"
+.PP
+.PP
+.nf
+# CMakeLists\&.txt
+
+cmake_minimum_required(VERSION 3\&.22)
+
+project(ProjectName)
+
+add_executable(ProjectName main\&.cpp)
+.fi
+.PP
+ Das ist eine einfach CMakeLists\&.txt Datei\&. Diese stellt im Prinzip die Anweisung wie das Projekt aufgebaut ist bereit\&.
+.IP "1." 4
+Zuerst wird die minimal benötigte CMake Version gesetzt\&.
+.IP "2." 4
+Dann wird das Projekt 'initiert'\&. Hier können auch andere Parameter wie bspw\&. die Version mitgegeben werden\&.
+.IP "3." 4
+Zuletzt wird die ausführbare Datei hinzugefügt\&.
+.PP
+.SH "Weitere Anweisung"
+.PP
+CMake hat sehr, sehr viele mögliche Anweisung\&. Für uns wichtig sind aber insbesondere: 
+.PP
+.nf
+set(SOURCES
+    src/main\&.cpp
+    src/ORDNER/DATEI\&.cpp
+)
+
+.fi
+.PP
+ Mit 'set' kann man in CMake Variablen setzen\&. Bei uns ist das insbesodere relevant, da so alle \&.cpp Dateien gesammelt der Executable 'gegeben' werden können\&. 
+.PP
+.RS 4
+Wenn ihr also eine neue Klasse erstellt, muss die \&.cpp Datei dieser Klasse zu den SOURCES in CMakeLists\&.txt hinzugefügt werden\&. 
+.RE
+.PP
+Header die unter src/include liegen, werden automatisch erkannt\&.
+.PP
+.PP
+.nf
+add_executable(${PROJECT_NAME} ${SOURCES})
+.fi
+.PP
+ So wird bei uns dann die Executable hinzugefügt\&. Die 'PROJECT_NAME' Variable wurde im vorhinein definiert\&.
+.SH "Subdirectorys"
+.PP
+Des weiteren ist unser Projekt auch etwas aufgeteilt\&. Für die Libraries gibt es beispielsweiße unter 'lib/' eine eigenen CMake Datei welche so hinzugefügt wird\&. 
+.PP
+.nf
+add_subdirectory(lib)
+
+.fi
+.PP
+.PP
+Das kann fürs erste jedoch ignoriert werden\&. Ich plane in Zukunft, die 'set(SOURCES)' Komponente in das 'src/' Verzeichnis auszulagern, jedoch mache ich das erst später irgendwa irgendwann\&. 

@@ -1,30 +1,36 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
 \contentsline {chapter}{\numberline {1}json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Batch}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}json\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}To\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Batch}{1}{section.1.1}%
-\contentsline {chapter}{\numberline {2}Todo List}{5}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Bug List}{7}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Namespace Index}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Namespace List}{9}{section.4.1}%
-\contentsline {chapter}{\numberline {5}File Index}{11}{chapter.5}%
-\contentsline {section}{\numberline {5.1}File List}{11}{section.5.1}%
-\contentsline {chapter}{\numberline {6}Namespace Documentation}{13}{chapter.6}%
-\contentsline {section}{\numberline {6.1}WIP Namespace Reference}{13}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Function Documentation}{13}{subsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.1.1}setupEasyLogging()}{13}{subsubsection.6.1.1.1}%
-\contentsline {chapter}{\numberline {7}File Documentation}{15}{chapter.7}%
-\contentsline {section}{\numberline {7.1}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{15}{section.7.1}%
-\contentsline {section}{\numberline {7.2}src/include/config.hpp File Reference}{15}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Macro Definition Documentation}{15}{subsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.1.1}AUTHORS}{15}{subsubsection.7.2.1.1}%
-\contentsline {subsubsection}{\numberline {7.2.1.2}DESCRIPTION}{16}{subsubsection.7.2.1.2}%
-\contentsline {subsubsection}{\numberline {7.2.1.3}HOMEPAGE\_URL}{16}{subsubsection.7.2.1.3}%
-\contentsline {subsubsection}{\numberline {7.2.1.4}MAJOR\_VERSION}{16}{subsubsection.7.2.1.4}%
-\contentsline {subsubsection}{\numberline {7.2.1.5}MINOR\_VERSION}{16}{subsubsection.7.2.1.5}%
-\contentsline {subsubsection}{\numberline {7.2.1.6}PATCH\_VERSION}{16}{subsubsection.7.2.1.6}%
-\contentsline {subsubsection}{\numberline {7.2.1.7}PROJECT\_NAME}{16}{subsubsection.7.2.1.7}%
-\contentsline {section}{\numberline {7.3}config.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{16}{section.7.3}%
-\contentsline {section}{\numberline {7.4}src/main.cpp File Reference}{17}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Function Documentation}{17}{subsection.7.4.1}%
-\contentsline {subsubsection}{\numberline {7.4.1.1}main()}{17}{subsubsection.7.4.1.1}%
-\contentsline {section}{\numberline {7.5}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{18}{section.7.5}%
+\contentsline {chapter}{\numberline {2}CMake}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Was ist CMake?}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}CMake Grundlagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Weitere Anweisung}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Subdirectorys}{4}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Todo List}{5}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Bug List}{7}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Namespace Index}{9}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Namespace List}{9}{section.5.1}%
+\contentsline {chapter}{\numberline {6}File Index}{11}{chapter.6}%
+\contentsline {section}{\numberline {6.1}File List}{11}{section.6.1}%
+\contentsline {chapter}{\numberline {7}Namespace Documentation}{13}{chapter.7}%
+\contentsline {section}{\numberline {7.1}WIP Namespace Reference}{13}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Function Documentation}{13}{subsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.1.1}setupEasyLogging()}{13}{subsubsection.7.1.1.1}%
+\contentsline {chapter}{\numberline {8}File Documentation}{15}{chapter.8}%
+\contentsline {section}{\numberline {8.1}CMake.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{15}{section.8.1}%
+\contentsline {section}{\numberline {8.2}README.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}md File Reference}{15}{section.8.2}%
+\contentsline {section}{\numberline {8.3}src/include/config.hpp File Reference}{15}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}Macro Definition Documentation}{16}{subsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.1.1}AUTHORS}{16}{subsubsection.8.3.1.1}%
+\contentsline {subsubsection}{\numberline {8.3.1.2}DESCRIPTION}{16}{subsubsection.8.3.1.2}%
+\contentsline {subsubsection}{\numberline {8.3.1.3}HOMEPAGE\_URL}{16}{subsubsection.8.3.1.3}%
+\contentsline {subsubsection}{\numberline {8.3.1.4}MAJOR\_VERSION}{16}{subsubsection.8.3.1.4}%
+\contentsline {subsubsection}{\numberline {8.3.1.5}MINOR\_VERSION}{16}{subsubsection.8.3.1.5}%
+\contentsline {subsubsection}{\numberline {8.3.1.6}PATCH\_VERSION}{16}{subsubsection.8.3.1.6}%
+\contentsline {subsubsection}{\numberline {8.3.1.7}PROJECT\_NAME}{16}{subsubsection.8.3.1.7}%
+\contentsline {section}{\numberline {8.4}config.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}hpp}{17}{section.8.4}%
+\contentsline {section}{\numberline {8.5}src/main.cpp File Reference}{17}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}Function Documentation}{17}{subsection.8.5.1}%
+\contentsline {subsubsection}{\numberline {8.5.1.1}main()}{17}{subsubsection.8.5.1.1}%
+\contentsline {section}{\numberline {8.6}main.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}cpp}{18}{section.8.6}%
 \contentsline {chapter}{Index}{21}{section*.9}%

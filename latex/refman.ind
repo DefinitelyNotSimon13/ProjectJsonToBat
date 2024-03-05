@@ -1,7 +1,7 @@
 \begin{theindex}
 
   \item {AUTHORS}
-    \subitem {config.hpp}, \hyperpage{15}
+    \subitem {config.hpp}, \hyperpage{16}
 
   \indexspace
 
@@ -9,9 +9,11 @@
 
   \indexspace
 
+  \item {CMake}, \hyperpage{3}
+  \item {CMake.md}, \hyperpage{15}
   \item {config.hpp}
-    \subitem {AUTHORS}, \hyperpage{15}
-    \subitem {DESCRIPTION}, \hyperpage{15}
+    \subitem {AUTHORS}, \hyperpage{16}
+    \subitem {DESCRIPTION}, \hyperpage{16}
     \subitem {HOMEPAGE\_URL}, \hyperpage{16}
     \subitem {MAJOR\_VERSION}, \hyperpage{16}
     \subitem {MINOR\_VERSION}, \hyperpage{16}
@@ -21,7 +23,7 @@
   \indexspace
 
   \item {DESCRIPTION}
-    \subitem {config.hpp}, \hyperpage{15}
+    \subitem {config.hpp}, \hyperpage{16}
 
   \indexspace
 
@@ -58,7 +60,7 @@
 
   \item {setupEasyLogging}
     \subitem {WIP}, \hyperpage{13}
-  \item {src/include/config.hpp}, \hyperpage{15, 16}
+  \item {src/include/config.hpp}, \hyperpage{15}, \hyperpage{17}
   \item {src/main.cpp}, \hyperpage{17, 18}
 
   \indexspace

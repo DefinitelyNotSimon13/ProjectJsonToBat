@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.5)  5 MAR 2024 12:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.5)  5 MAR 2024 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,15 +891,17 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 23.
  [1
 
-] [2]
-Underfull \hbox (badness 10000) detected at line 107
+]
+Underfull \hbox (badness 10000) detected at line 119
 [][][]
  []
 
-) (./dd/da0/todo.tex [3] [4
-
-]
+) (./d0/dbc/md_CMake.tex [2]
 Chapter 2.
+[3
+
+]) (./dd/da0/todo.tex [4]
+Chapter 3.
 
 Overfull \hbox (27.0pt too wide) in paragraph at lines 10--10
 []
@@ -915,10 +917,12 @@ Overfull \hbox (27.0pt too wide) in paragraph at lines 17--18
 []
  []
 
-) (./de/da5/bug.tex [5] [6
+) (./de/da5/bug.tex [5
+
+] [6
 
 ]
-Chapter 3.
+Chapter 4.
 
 Overfull \hbox (27.0pt too wide) in paragraph at lines 10--10
 []
@@ -932,15 +936,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--10
 ) [7] [8
 
 ]
-Chapter 4.
+Chapter 5.
 (./namespaces.tex) [9] [10
 
 ]
-Chapter 5.
+Chapter 6.
 (./files.tex) [11] [12
 
 ]
-Chapter 6.
+Chapter 7.
 (./d8/d96/namespaceWIP.tex
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
@@ -951,7 +955,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 15.
  <./d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
-<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=254, 273
+<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=297, 273
 .02pt x 99.37125pt>
 File: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic
  file (type pdf)
@@ -962,18 +966,18 @@ icgraph.pdf  used on input line 36.
 ) [13] [14
 
 ]
-Chapter 7.
-(./da/ddd/README_8md.tex) (./d8/dfd/config_8hpp.tex <./d4/d28/config_8hpp__dep_
-_incl.pdf>
-<d4/d28/config_8hpp__dep__incl.pdf, id=275, 190.7125pt x 155.58125pt>
+Chapter 8.
+(./d8/dca/CMake_8md.tex) (./da/ddd/README_8md.tex) (./d8/dfd/config_8hpp.tex <.
+/d4/d28/config_8hpp__dep__incl.pdf>
+<d4/d28/config_8hpp__dep__incl.pdf, id=319, 190.7125pt x 155.58125pt>
 File: d4/d28/config_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d4/d28/config_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d4/d28/config_8hpp__dep__incl.pdf  used on input line 
 8.
 (pdftex.def)             Requested size: 190.0pt x 155.00635pt.
- [15]) (./d8/dfd/config_8hpp_source.tex) (./df/d0a/main_8cpp.tex <./da/dce/main
-_8cpp__incl.pdf>
-<da/dce/main_8cpp__incl.pdf, id=338, 359.3425pt x 155.58125pt>
+ [15]) (./d8/dfd/config_8hpp_source.tex)
+(./df/d0a/main_8cpp.tex <./da/dce/main_8cpp__incl.pdf>
+<da/dce/main_8cpp__incl.pdf, id=380, 359.3425pt x 155.58125pt>
 File: da/dce/main_8cpp__incl.pdf Graphic file (type pdf)
 <use da/dce/main_8cpp__incl.pdf>
 Package pdftex.def Info: da/dce/main_8cpp__incl.pdf  used on input line 11.
@@ -986,13 +990,13 @@ Underfull \hbox (badness 10000) detected at line 35
 [][][]
  []
 
-
+[17]
 Overfull \hbox (22.64763pt too wide) in paragraph at lines 50--51
 []\T1/phv/m/n/10 References [], [], [], [], [], [],
  []
 
  <./df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
-<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=380, 273.02p
+<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=436, 273.02p
 t x 99.37125pt>
 File: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf Graphic fil
 e (type pdf)
@@ -1001,7 +1005,7 @@ Package pdftex.def Info: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgr
 aph.pdf  used on input line 57.
 (pdftex.def)             Requested size: 272.0pt x 99.00557pt.
 )
-(./df/d0a/main_8cpp_source.tex [17]) [18] [19] [20
+(./df/d0a/main_8cpp_source.tex [18]) [19] [20
 
 ] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
@@ -1013,16 +1017,16 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 ])
 (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: A965D9B924AA77E8CCE81C53BE70B114;4749.
+(rerunfilecheck)             Checksum: C3F98E0BCD54106A13A7366802AFC3E3;5659.
  ) 
 Here is how much of TeX's memory you used:
- 18230 strings out of 476025
- 294194 string characters out of 5796498
+ 18277 strings out of 476025
+ 294960 string characters out of 5796498
  1870388 words of memory out of 5000000
- 38171 multiletter control sequences out of 15000+600000
+ 38193 multiletter control sequences out of 15000+600000
  565611 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,594b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,594b,777s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1031,10 +1035,10 @@ b></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8ac.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (25 pages, 162150 bytes).
+Output written on refman.pdf (25 pages, 167585 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 520 compressed objects within 6 object streams
- 148 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 644 PDF objects out of 1000 (max. 8388607)
+ 570 compressed objects within 6 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

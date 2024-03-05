@@ -891,14 +891,12 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 23.
  [1
 
-] [2]
-Underfull \hbox (badness 10000) detected at line 107
+]
+Underfull \hbox (badness 10000) detected at line 119
 [][][]
  []
 
-) (./dd/da0/todo.tex [3] [4
-
-]
+) (./dd/da0/todo.tex [2]
 Chapter 2.
 
 Overfull \hbox (27.0pt too wide) in paragraph at lines 10--10
@@ -915,7 +913,9 @@ Overfull \hbox (27.0pt too wide) in paragraph at lines 17--18
 []
  []
 
-) (./de/da5/bug.tex [5] [6
+) (./de/da5/bug.tex [3
+
+] [4
 
 ]
 Chapter 3.
@@ -929,15 +929,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--10
 
  []
 
-) [7] [8
+) [5] [6
 
 ]
 Chapter 4.
-(./namespaces.tex) [9] [10
+(./namespaces.tex) [7] [8
 
 ]
 Chapter 5.
-(./files.tex) [11] [12
+(./files.tex) [9] [10
 
 ]
 Chapter 6.
@@ -951,7 +951,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 15.
  <./d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
-<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=254, 273
+<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=250, 273
 .02pt x 99.37125pt>
 File: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic
  file (type pdf)
@@ -959,26 +959,26 @@ File: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic
 Package pdftex.def Info: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_
 icgraph.pdf  used on input line 36.
 (pdftex.def)             Requested size: 272.0pt x 99.00557pt.
-) [13] [14
+) [11] [12
 
 ]
 Chapter 7.
 (./da/ddd/README_8md.tex) (./d8/dfd/config_8hpp.tex <./d4/d28/config_8hpp__dep_
 _incl.pdf>
-<d4/d28/config_8hpp__dep__incl.pdf, id=275, 190.7125pt x 155.58125pt>
+<d4/d28/config_8hpp__dep__incl.pdf, id=271, 190.7125pt x 155.58125pt>
 File: d4/d28/config_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d4/d28/config_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d4/d28/config_8hpp__dep__incl.pdf  used on input line 
 8.
 (pdftex.def)             Requested size: 190.0pt x 155.00635pt.
- [15]) (./d8/dfd/config_8hpp_source.tex) (./df/d0a/main_8cpp.tex <./da/dce/main
+ [13]) (./d8/dfd/config_8hpp_source.tex) (./df/d0a/main_8cpp.tex <./da/dce/main
 _8cpp__incl.pdf>
-<da/dce/main_8cpp__incl.pdf, id=338, 359.3425pt x 155.58125pt>
+<da/dce/main_8cpp__incl.pdf, id=333, 359.3425pt x 155.58125pt>
 File: da/dce/main_8cpp__incl.pdf Graphic file (type pdf)
 <use da/dce/main_8cpp__incl.pdf>
 Package pdftex.def Info: da/dce/main_8cpp__incl.pdf  used on input line 11.
 (pdftex.def)             Requested size: 350.0pt x 151.54747pt.
- [16]
+ [14]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 33.
 
@@ -992,7 +992,7 @@ Overfull \hbox (22.64763pt too wide) in paragraph at lines 50--51
  []
 
  <./df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
-<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=380, 273.02p
+<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=375, 273.02p
 t x 99.37125pt>
 File: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf Graphic fil
 e (type pdf)
@@ -1001,12 +1001,12 @@ Package pdftex.def Info: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgr
 aph.pdf  used on input line 57.
 (pdftex.def)             Requested size: 272.0pt x 99.00557pt.
 )
-(./df/d0a/main_8cpp_source.tex [17]) [18] [19] [20
+(./df/d0a/main_8cpp_source.tex [15]) [16] [17] [18
 
 ] (./refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [21
+ [19
 
 
 
@@ -1016,13 +1016,13 @@ Package rerunfilecheck Info: File `refman.out' has not changed.
 (rerunfilecheck)             Checksum: A965D9B924AA77E8CCE81C53BE70B114;4749.
  ) 
 Here is how much of TeX's memory you used:
- 18230 strings out of 476025
- 294194 string characters out of 5796498
+ 18228 strings out of 476025
+ 294180 string characters out of 5796498
  1870388 words of memory out of 5000000
  38171 multiletter control sequences out of 15000+600000
  565611 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,594b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,594b,777s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1031,10 +1031,10 @@ b></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8ac.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (25 pages, 162152 bytes).
+Output written on refman.pdf (23 pages, 161971 bytes).
 PDF statistics:
- 595 PDF objects out of 1000 (max. 8388607)
- 520 compressed objects within 6 object streams
- 148 named destinations out of 1000 (max. 500000)
+ 590 PDF objects out of 1000 (max. 8388607)
+ 517 compressed objects within 6 object streams
+ 146 named destinations out of 1000 (max. 500000)
  253 words of extra memory for PDF output out of 10000 (max. 10000000)
 

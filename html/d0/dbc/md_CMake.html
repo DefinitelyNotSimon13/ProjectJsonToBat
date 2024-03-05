@@ -102,13 +102,41 @@ Was ist CMake?</h1>
 <p>Grob gesagt ist CMake das System, das unser Projekt konfiguriert und "baut". "Baut" ist hierbei in Anführungszeichen, da es nicht den klassichen Compiler wie bspw. gcc/g++ ersetzt. CMake stellt diesem in gewissermaßen die benötigten Anweisungen bereit, damit "komplexere" Projekte mit mehreren zu kompilierenden Dateien problemlos und konsistent gebaut werden können.</p>
 <h1><a class="anchor" id="autotoc_md3"></a>
 CMake Grundlagen:</h1>
+<div class="fragment"><div class="line"># CMakeLists.txt</div>
+<div class="line"> </div>
+<div class="line">cmake_minimum_required(VERSION 3.22)</div>
+<div class="line"> </div>
+<div class="line">project(ProjectName)</div>
+<div class="line"> </div>
+<div class="line">add_executable(ProjectName main.cpp)</div>
+</div><!-- fragment --><p> Das ist eine einfach CMakeLists.txt Datei. Diese stellt im Prinzip die Anweisung wie das Projekt aufgebaut ist bereit.</p><ol type="1">
+<li>Zuerst wird die minimal benötigte CMake Version gesetzt.</li>
+<li>Dann wird das Projekt "initiert". Hier können auch andere Parameter wie bspw. die Version mitgegeben werden.</li>
+<li>Zuletzt wird die ausführbare Datei hinzugefügt.</li>
+</ol>
+<h1><a class="anchor" id="autotoc_md4"></a>
+Weitere Anweisung</h1>
+<p>CMake hat sehr, sehr viele mögliche Anweisung. Für uns wichtig sind aber insbesondere: </p><div class="fragment"><div class="line">set(SOURCES</div>
+<div class="line">    src/main.cpp</div>
+<div class="line">    src/ORDNER/DATEI.cpp</div>
+<div class="line">)</div>
+</div><!-- fragment --><p> Mit 'set' kann man in CMake Variablen setzen. Bei uns ist das insbesodere relevant, da so alle .cpp Dateien gesammelt der Executable "gegeben" werden können. </p><blockquote class="doxtable">
+<p>&zwj;Wenn ihr also eine neue Klasse erstellt, muss die .cpp Datei dieser Klasse zu den SOURCES in CMakeLists.txt hinzugefügt werden. </p>
+</blockquote>
+<p>Header die unter src/include liegen, werden automatisch erkannt.</p>
+<div class="fragment"><div class="line">add_executable(${PROJECT_NAME} ${SOURCES})</div>
+</div><!-- fragment --><p> So wird bei uns dann die Executable hinzugefügt. Die 'PROJECT_NAME' Variable wurde im vorhinein definiert.</p>
+<h1><a class="anchor" id="autotoc_md5"></a>
+Subdirectorys</h1>
+<p>Des weiteren ist unser Projekt auch etwas aufgeteilt. Für die Libraries gibt es beispielsweiße unter 'lib/' eine eigenen CMake Datei welche so hinzugefügt wird. </p><div class="fragment"><div class="line">add_subdirectory(lib)</div>
+</div><!-- fragment --><p>Das kann fürs erste jedoch ignoriert werden. Ich plane in Zukunft, die 'set(SOURCES)' Komponente in das 'src/' Verzeichnis auszulagern, jedoch mache ich das erst später irgendwa irgendwann. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 5 2024 11:01:10 for jsonToBatch by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
+    <li class="footer">Generated on Tue Mar 5 2024 11:41:37 for jsonToBatch by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8 </li>
   </ul>
 </div>
 </body>

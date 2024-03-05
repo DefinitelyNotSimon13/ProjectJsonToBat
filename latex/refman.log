@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.5)  5 MAR 2024 11:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.5)  5 MAR 2024 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -900,9 +900,7 @@ Underfull \hbox (badness 10000) detected at line 107
 
 ]
 Chapter 2.
-) (./dd/da0/todo.tex [5] [6
-
-]
+[5]) (./dd/da0/todo.tex [6]
 Chapter 3.
 
 Overfull \hbox (27.0pt too wide) in paragraph at lines 10--10
@@ -919,7 +917,9 @@ Overfull \hbox (27.0pt too wide) in paragraph at lines 17--18
 []
  []
 
-) (./de/da5/bug.tex [7] [8
+) (./de/da5/bug.tex [7
+
+] [8
 
 ]
 Chapter 4.
@@ -955,7 +955,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 15.
  <./d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
-<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=286, 273
+<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=302, 273
 .02pt x 99.37125pt>
 File: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic
  file (type pdf)
@@ -969,7 +969,7 @@ icgraph.pdf  used on input line 36.
 Chapter 8.
 (./d8/dca/CMake_8md.tex) (./da/ddd/README_8md.tex) (./d8/dfd/config_8hpp.tex <.
 /d4/d28/config_8hpp__dep__incl.pdf>
-<d4/d28/config_8hpp__dep__incl.pdf, id=309, 190.7125pt x 155.58125pt>
+<d4/d28/config_8hpp__dep__incl.pdf, id=324, 190.7125pt x 155.58125pt>
 File: d4/d28/config_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d4/d28/config_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d4/d28/config_8hpp__dep__incl.pdf  used on input line 
@@ -977,7 +977,7 @@ Package pdftex.def Info: d4/d28/config_8hpp__dep__incl.pdf  used on input line
 (pdftex.def)             Requested size: 190.0pt x 155.00635pt.
  [17]) (./d8/dfd/config_8hpp_source.tex)
 (./df/d0a/main_8cpp.tex <./da/dce/main_8cpp__incl.pdf>
-<da/dce/main_8cpp__incl.pdf, id=369, 359.3425pt x 155.58125pt>
+<da/dce/main_8cpp__incl.pdf, id=384, 359.3425pt x 155.58125pt>
 File: da/dce/main_8cpp__incl.pdf Graphic file (type pdf)
 <use da/dce/main_8cpp__incl.pdf>
 Package pdftex.def Info: da/dce/main_8cpp__incl.pdf  used on input line 11.
@@ -996,7 +996,7 @@ Overfull \hbox (22.64763pt too wide) in paragraph at lines 50--51
  []
 
  <./df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf>
-<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=425, 273.02p
+<df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf, id=440, 273.02p
 t x 99.37125pt>
 File: df/d0a/main_8cpp_a0ddf1224851353fc92bfbff6f499fa97_cgraph.pdf Graphic fil
 e (type pdf)
@@ -1017,13 +1017,13 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 ])
 (./refman.aux)
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: D856F51BFC851C9964DF39FA0F616585;5350.
+(rerunfilecheck)             Checksum: C3F98E0BCD54106A13A7366802AFC3E3;5659.
  ) 
 Here is how much of TeX's memory you used:
- 18265 strings out of 476025
- 294752 string characters out of 5796498
+ 18279 strings out of 476025
+ 294974 string characters out of 5796498
  1870388 words of memory out of 5000000
- 38186 multiletter control sequences out of 15000+600000
+ 38193 multiletter control sequences out of 15000+600000
  565611 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,15n,117p,594b,919s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1035,10 +1035,10 @@ b></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8ac.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (27 pages, 165732 bytes).
+Output written on refman.pdf (27 pages, 168056 bytes).
 PDF statistics:
- 632 PDF objects out of 1000 (max. 8388607)
- 556 compressed objects within 6 object streams
- 159 named destinations out of 1000 (max. 500000)
- 285 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 648 PDF objects out of 1000 (max. 8388607)
+ 572 compressed objects within 6 object streams
+ 166 named destinations out of 1000 (max. 500000)
+ 301 words of extra memory for PDF output out of 10000 (max. 10000000)
 

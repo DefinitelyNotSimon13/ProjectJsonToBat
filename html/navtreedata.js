@@ -28,7 +28,9 @@ var NAVTREE =
     [ "jsonToBatch", "index.html#autotoc_md0", null ],
     [ "CMake", "d0/dbc/md_CMake.html", [
       [ "Was ist CMake?", "d0/dbc/md_CMake.html#autotoc_md2", null ],
-      [ "CMake Grundlagen:", "d0/dbc/md_CMake.html#autotoc_md3", null ]
+      [ "CMake Grundlagen:", "d0/dbc/md_CMake.html#autotoc_md3", null ],
+      [ "Weitere Anweisung", "d0/dbc/md_CMake.html#autotoc_md4", null ],
+      [ "Subdirectorys", "d0/dbc/md_CMake.html#autotoc_md5", null ]
     ] ],
     [ "Todo List", "dd/da0/todo.html", null ],
     [ "Bug List", "de/da5/bug.html", null ],

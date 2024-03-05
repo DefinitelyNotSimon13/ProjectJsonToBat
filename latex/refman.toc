@@ -4,6 +4,8 @@
 \contentsline {chapter}{\numberline {2}CMake}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Was ist CMake?}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}CMake Grundlagen\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}:}{5}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Weitere Anweisung}{5}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Subdirectorys}{6}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Todo List}{7}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Bug List}{9}{chapter.4}%
 \contentsline {chapter}{\numberline {5}Namespace Index}{11}{chapter.5}%

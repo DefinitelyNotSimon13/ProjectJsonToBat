@@ -1,61 +1,75 @@
 \begin{theindex}
 
   \item {AUTHORS}
-    \subitem {config.hpp}, \hyperpage{9}
+    \subitem {config.hpp}, \hyperpage{18}
 
   \indexspace
 
+  \item {Bug List}, \hyperpage{9}
+
+  \indexspace
+
+  \item {CMake}, \hyperpage{5}
+  \item {CMake.md}, \hyperpage{17}
   \item {config.hpp}
-    \subitem {AUTHORS}, \hyperpage{9}
-    \subitem {DESCRIPTION}, \hyperpage{9}
-    \subitem {HOMEPAGE\_URL}, \hyperpage{10}
-    \subitem {MAJOR\_VERSION}, \hyperpage{10}
-    \subitem {MINOR\_VERSION}, \hyperpage{10}
-    \subitem {PATCH\_VERSION}, \hyperpage{10}
-    \subitem {PROJECT\_NAME}, \hyperpage{10}
+    \subitem {AUTHORS}, \hyperpage{18}
+    \subitem {DESCRIPTION}, \hyperpage{18}
+    \subitem {HOMEPAGE\_URL}, \hyperpage{18}
+    \subitem {MAJOR\_VERSION}, \hyperpage{18}
+    \subitem {MINOR\_VERSION}, \hyperpage{18}
+    \subitem {PATCH\_VERSION}, \hyperpage{18}
+    \subitem {PROJECT\_NAME}, \hyperpage{18}
 
   \indexspace
 
   \item {DESCRIPTION}
-    \subitem {config.hpp}, \hyperpage{9}
+    \subitem {config.hpp}, \hyperpage{18}
 
   \indexspace
 
   \item {HOMEPAGE\_URL}
-    \subitem {config.hpp}, \hyperpage{10}
+    \subitem {config.hpp}, \hyperpage{18}
+
+  \indexspace
+
+  \item {jsonToBatch}, \hyperpage{1}
 
   \indexspace
 
   \item {main}
-    \subitem {main.cpp}, \hyperpage{11}
+    \subitem {main.cpp}, \hyperpage{19}
   \item {main.cpp}
-    \subitem {main}, \hyperpage{11}
+    \subitem {main}, \hyperpage{19}
   \item {MAJOR\_VERSION}
-    \subitem {config.hpp}, \hyperpage{10}
+    \subitem {config.hpp}, \hyperpage{18}
   \item {MINOR\_VERSION}
-    \subitem {config.hpp}, \hyperpage{10}
+    \subitem {config.hpp}, \hyperpage{18}
 
   \indexspace
 
   \item {PATCH\_VERSION}
-    \subitem {config.hpp}, \hyperpage{10}
+    \subitem {config.hpp}, \hyperpage{18}
   \item {PROJECT\_NAME}
-    \subitem {config.hpp}, \hyperpage{10}
+    \subitem {config.hpp}, \hyperpage{18}
+
+  \indexspace
+
+  \item {README.md}, \hyperpage{17}
 
   \indexspace
 
   \item {setupEasyLogging}
-    \subitem {WIP}, \hyperpage{7}
-  \item {src/include/config.hpp}, \hyperpage{9, 10}
-  \item {src/main.cpp}, \hyperpage{11, 12}
+    \subitem {WIP}, \hyperpage{15}
+  \item {src/include/config.hpp}, \hyperpage{17}, \hyperpage{19}
+  \item {src/main.cpp}, \hyperpage{19, 20}
 
   \indexspace
 
-  \item {Todo List}, \hyperpage{1}
+  \item {Todo List}, \hyperpage{7}
 
   \indexspace
 
-  \item {WIP}, \hyperpage{7}
-    \subitem {setupEasyLogging}, \hyperpage{7}
+  \item {WIP}, \hyperpage{15}
+    \subitem {setupEasyLogging}, \hyperpage{15}
 
 \end{theindex}

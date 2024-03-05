@@ -25,7 +25,13 @@
 var NAVTREE =
 [
   [ "jsonToBatch", "index.html", [
+    [ "jsonToBatch", "index.html#autotoc_md0", null ],
+    [ "CMake", "d0/dbc/md_CMake.html", [
+      [ "Was ist CMake?", "d0/dbc/md_CMake.html#autotoc_md2", null ],
+      [ "CMake Grundlagen:", "d0/dbc/md_CMake.html#autotoc_md3", null ]
+    ] ],
     [ "Todo List", "dd/da0/todo.html", null ],
+    [ "Bug List", "de/da5/bug.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -46,7 +52,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"d8/d96/namespaceWIP.html"
+"d0/dbc/md_CMake.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

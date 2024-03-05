@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['setupeasylogging_0',['setupEasyLogging',['../d8/d96/namespaceWIP.html#a11d0d8373a8a6c4eebcc8b0d2dcccac9',1,'WIP']]]
+  ['jsontobatch_0',['jsontobatch',['../index.html',1,'jsonToBatch'],['../index.html#autotoc_md0',1,'jsonToBatch'],['../dd/da0/todo.html#_todo000002',1,'jsonToBatch'],['../de/da5/bug.html#_bug000001',1,'jsonToBatch']]]
 ];

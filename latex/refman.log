@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.5)  5 MAR 2024 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Alpine Linux) (preloaded format=pdflatex 2024.3.5)  5 MAR 2024 13:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -892,7 +892,7 @@ LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
  [1
 
 ]
-Underfull \hbox (badness 10000) detected at line 119
+Underfull \hbox (badness 10000) detected at line 108
 [][][]
  []
 
@@ -955,7 +955,7 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 7.19995pt on input line 15.
  <./d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf>
-<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=297, 273
+<d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf, id=296, 273
 .02pt x 99.37125pt>
 File: d8/d96/namespaceWIP_a11d0d8373a8a6c4eebcc8b0d2dcccac9_icgraph.pdf Graphic
  file (type pdf)
@@ -969,7 +969,7 @@ icgraph.pdf  used on input line 36.
 Chapter 8.
 (./d8/dca/CMake_8md.tex) (./da/ddd/README_8md.tex) (./d8/dfd/config_8hpp.tex <.
 /d4/d28/config_8hpp__dep__incl.pdf>
-<d4/d28/config_8hpp__dep__incl.pdf, id=319, 190.7125pt x 155.58125pt>
+<d4/d28/config_8hpp__dep__incl.pdf, id=318, 190.7125pt x 155.58125pt>
 File: d4/d28/config_8hpp__dep__incl.pdf Graphic file (type pdf)
 <use d4/d28/config_8hpp__dep__incl.pdf>
 Package pdftex.def Info: d4/d28/config_8hpp__dep__incl.pdf  used on input line 
@@ -977,7 +977,7 @@ Package pdftex.def Info: d4/d28/config_8hpp__dep__incl.pdf  used on input line
 (pdftex.def)             Requested size: 190.0pt x 155.00635pt.
  [15]) (./d8/dfd/config_8hpp_source.tex)
 (./df/d0a/main_8cpp.tex <./da/dce/main_8cpp__incl.pdf>
-<da/dce/main_8cpp__incl.pdf, id=380, 359.3425pt x 155.58125pt>
+<da/dce/main_8cpp__incl.pdf, id=379, 359.3425pt x 155.58125pt>
 File: da/dce/main_8cpp__incl.pdf Graphic file (type pdf)
 <use da/dce/main_8cpp__incl.pdf>
 Package pdftex.def Info: da/dce/main_8cpp__incl.pdf  used on input line 11.
@@ -1026,7 +1026,7 @@ Here is how much of TeX's memory you used:
  38193 multiletter control sequences out of 15000+600000
  565611 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,15n,117p,594b,777s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,15n,117p,594b,717s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public
@@ -1035,7 +1035,7 @@ b></usr/share/texmf-dist/fonts/type1/urw/courier/ucrro8a.pfb></usr/share/texmf-
 dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /helvetic/uhvb8ac.pfb></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pf
 b></usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (25 pages, 167588 bytes).
+Output written on refman.pdf (25 pages, 167342 bytes).
 PDF statistics:
  644 PDF objects out of 1000 (max. 8388607)
  570 compressed objects within 6 object streams
